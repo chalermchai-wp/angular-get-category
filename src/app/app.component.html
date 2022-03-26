@@ -1,0 +1,6 @@
+<!-- <hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p> -->
+
+<input [(ngModel)]="input" (input)="onInput(this.input)" />
+
+<li *ngFor="let item of dataFilter; index as i">{{ item }}</li>
